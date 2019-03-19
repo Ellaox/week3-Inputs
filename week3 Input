@@ -1,0 +1,34 @@
+# add2numbers2.py
+# Prompt the user to enter two integers, 
+# add them, store the result and 
+# print the result to the screen
+# RJ 9th December 2004
+
+
+num1 = int(input("Type in a whole number: "))
+num2 = int(input("Type in a another whole number: "))
+
+sum = num1 + num2
+
+print ("he numbers add up to give", sum)
+
+------------------------------------------------------------
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:/Users/Mary Medeiros/AppData/Local/Programs/Python/Python37/add2numbers2.py 
+Type in a whole number: 5
+Type in a another whole number: 5
+he numbers add up to give 55
+>>> 
+ RESTART: C:/Users/Mary Medeiros/AppData/Local/Programs/Python/Python37/add2numbers2.py 
+Traceback (most recent call last):
+  File "C:/Users/Mary Medeiros/AppData/Local/Programs/Python/Python37/add2numbers2.py", line 8, in <module>
+    num1 = raw_input("Type in a whole number: ")
+NameError: name 'raw_input' is not defined
+>>> 
+ RESTART: C:/Users/Mary Medeiros/AppData/Local/Programs/Python/Python37/add2numbers2.py 
+Type in a whole number: 5
+Type in a another whole number: 5
+he numbers add up to give 10
+>>> 
